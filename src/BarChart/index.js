@@ -34,7 +34,7 @@ export var useBarChart = function (props) {
     var _48 = __read(useState(''), 2), points = _48[0], setPoints = _48[1];
     var _49 = __read(useState(''), 2), points2 = _49[0], setPoints2 = _49[1];
     var _50 = __read(useState(''), 2), arrowPoints = _50[0], setArrowPoints = _50[1];
-    var _51 = __read(useState(-1), 2), selectedIndex = _51[0], setSelectedIndex = _51[1];
+    var _51 = __read(useState(13), 2), selectedIndex = _51[0], setSelectedIndex = _51[1];
     var showLine = (_a = props.showLine) !== null && _a !== void 0 ? _a : BarDefaults.showLine;
     var spacing = (_b = props.spacing) !== null && _b !== void 0 ? _b : BarDefaults.spacing;
     var initialSpacing = (_c = props.initialSpacing) !== null && _c !== void 0 ? _c : spacing;
